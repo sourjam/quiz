@@ -1,0 +1,194 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin-top: 3%;
+  font-family: sans-serif;
+  font-size: 2em;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 4;
+  width: 50%;
+}
+
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.questionImage {
+  height: 50vh;
+}
+
+.questionButtons {
+  text-align: center;
+}
+
+#questionText {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 5px;
+}
+
+#actor {
+  text-transform: capitalize;
+}
+
+.answerButton {
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  width: 70%;
+  font-size: 1.1em;
+  background-color: lightblue;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.answerButton:hover {
+  background-color: skyblue;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input.celebInput {
+  text-align: center;
+  width: 100%;
+}
+
+button#submit {
+  margin: 5px;
+  width: 100px;
+  background-color: palegreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button#submit:hover {
+  background-color: limegreen;
+}
+
+.scoreModal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  text-align: center;
+}
+
+.modalBG {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  background-color: white;
+  opacity: .9;
+  z-index: -1;
+}
+
+.noDisplay {
+  display: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: gold;
+  font-size: 3em;
+  font-family: sans-serif;
+  text-shadow:
+    3px 3px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.userScore {
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+#playButton {
+  border: none;
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background-color: firebrick;
+  color: white;
+  cursor: pointer;
+}
+
+@media(max-width: 420px) and (orientation: portrait) {
+  .header {
+    font-size: 1.1em;
+    margin-top: 1%;
+  }
+
+  button#submit {
+    padding: 5px;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .questionImage {
+    height: 60vh;
+  }
+
+  #questionText {
+    margin: 3px;
+    font-size: .9em;
+  }
+
+  .answerButton {
+    font-size: .8em;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media(max-height: 414px) and (orientation: landscape) {
+  .header {
+    margin-top: 0;
+    font-size: 1em;
+  }
+  #submit {
+    padding: 5px;
+  }
+  .content {
+    width: 55%;
+  }
+  .questionImage {
+    height: 70vh;
+  }
+  #questionText {
+    font-size: 1em;
+  }
+  .questionWrapper {
+    flex-direction: row;
+  }
+  .answerButton {
+    width: 80%;
+    font-size: .8em;
+  }
+}
