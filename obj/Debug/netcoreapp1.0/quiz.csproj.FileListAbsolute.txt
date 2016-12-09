@@ -1,6 +1,0 @@
-c:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\obj\Debug\netcoreapp1.0\quiz.AssemblyInfo.cs
-c:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\bin\Debug\netcoreapp1.0\quiz.dll
-c:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\bin\Debug\netcoreapp1.0\quiz.pdb
-c:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\obj\Debug\netcoreapp1.0\quiz.dll
-c:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\obj\Debug\netcoreapp1.0\quiz.pdb
-C:\Users\HandyJim\documents\visual studio 2017\Projects\quiz\src\quiz\obj\Debug\netcoreapp1.0\quiz.csprojResolveAssemblyReference.cache

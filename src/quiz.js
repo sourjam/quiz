@@ -101,7 +101,6 @@
   // Selects random movie and adds img and text to DOM
   var buildQuestion = function(array) {
     correctAnswer = Math.floor(Math.random() * 3);
-    console.log('correct ', correctAnswer)
     var imgUrl = "https://image.tmdb.org/t/p/w500" + array[correctAnswer].poster_path;
     $('#actor').html(inputName);
     $('#question').removeClass('hidden');
@@ -117,7 +116,6 @@
     $('.scoreModal').addClass('noDisplay')
     movieList = shuffleMovies(movieList);
     var choices = movieList.slice(0, 3);
-    console.log('starting quiz', choices)
     buildQuestion(choices);
   };
 
